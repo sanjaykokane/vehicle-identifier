@@ -10,11 +10,11 @@
         </powerTrain>
         <wheels>
             <wheel>
-                <position>left rear</position>
+                <position>rear left</position>
                 <material>Plastic</material>
             </wheel>
             <wheel>
-                <position>right rear</position>
+                <position>rear right</position>
                 <material>Plastic</material>
             </wheel>
             <wheel>
@@ -48,6 +48,61 @@
             <material>Metals</material>
         </frame>
         <powerTrain>
+            <type>Internal Combation</type>
+        </powerTrain>
+        <wheels>
+            <wheel>
+                <position>rear</position>
+                <material>Metals</material>
+            </wheel>
+            <wheel>
+                <position>front</position>
+                <material>Metals</material>
+            </wheel>
+        </wheels>
+    </vehicle>
+    <vehicle>
+        <id>Vehicle 4</id>
+        <frame>
+            <material>Plastic</material>
+        </frame>
+        <powerTrain>
+            <type>Burnolli</type>
+        </powerTrain>
+    </vehicle>
+    <vehicle>
+        <id>Vehicle 5</id>
+        <frame>
+            <material>Metals</material>
+        </frame>
+        <powerTrain>
+            <type>Internal Combation</type>
+        </powerTrain>
+        <wheels>
+            <wheel>
+                <position>rear left</position>
+                <material>Metals</material>
+            </wheel>
+            <wheel>
+                <position>rear right</position>
+                <material>Metals</material>
+            </wheel>
+            <wheel>
+                <position>front right</position>
+                <material>Metals</material>
+            </wheel>
+            <wheel>
+                <position>front left</position>
+                <material>Metals</material>
+            </wheel>
+        </wheels>
+    </vehicle>
+    <vehicle>
+        <id>Vehicle 6</id>
+        <frame>
+            <material>Metals</material>
+        </frame>
+        <powerTrain>
             <type>Human</type>
         </powerTrain>
         <wheels>
@@ -60,5 +115,14 @@
                 <material>Metals</material>
             </wheel>
         </wheels>
+    </vehicle>
+    <vehicle>
+        <id>Vehicle 7</id>
+        <frame>
+            <material>Plastic</material>
+        </frame>
+        <powerTrain>
+            <type>Burnolli</type>
+        </powerTrain>
     </vehicle>
 </vehicles>
